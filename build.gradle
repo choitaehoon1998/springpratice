@@ -29,10 +29,6 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-test {
-    useJUnitPlatform()
-}
-
 def querydslDir = "$buildDir/generated/querydsl"
 
 querydsl {
